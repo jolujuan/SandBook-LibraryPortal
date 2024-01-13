@@ -11,4 +11,4 @@
 ## CHECKOUT
 ![Descripción de la imagen](https://i.postimg.cc/y8GDjSrv/3.jpg)
 
-![gif](https://imgflip.com/gif/8c782m)
+![gif](https://i.postimg.cc/8PV9FKpb/8c782m.gif)
