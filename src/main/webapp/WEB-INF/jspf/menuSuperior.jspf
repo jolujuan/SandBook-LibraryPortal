@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+		<ul class="navbar-nav mr-auto">
+
+			<li class="nav-item ${pagina.getStrBootStrapActiva("login")}"><a
+				class="navbar-brand mt-2 mt-lg-0" href="login"> <img
+					src="imagenes/logoSandBook.jpg" height="35" alt="SandBook"
+					loading="lazy" />
+			</a></li>
+
+			<li class="nav-item ${pagina.getStrBootStrapActiva("list-libro")}">
+				<a class="nav-link" href="list-libro"> <i class="fas fa-book"></i>&nbsp;Libros
+			</a>
+			</li>
+
+			<li class="nav-item ${pagina.getStrBootStrapActiva("list-logerror")}">
+				<a class="nav-link" href="list-logerror"> <i
+					class="fas fa-skull-crossbones"></i>&nbsp;Errores
+			</a>
+			</li>
+		</ul>
+	</div>
+	<div class="d-flex align-items-center">
+		<!-- Icon -->
+		<a class="nav-link" href="list-pedido" fas fa-shopping-cart> <i
+			class="fas fa-shopping-cart"></i>&nbsp;Pedidos
+		</a>
+		<div class="dropdown">
+			<a data-mdb-dropdown-init
+				class="dropdown-toggle d-flex align-items-center hidden-arrow"
+				href="#" id="navbarDropdownMenuAvatar" role="button"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<img alt="${loginName}" src="imagenUsuario/${loginNickName}"
+				class="rounded-circle" style="width: 35px; height: 35px">
+				&nbsp;${loginNickName}
+			</a>
+			<div class="dropdown-menu dropdown-menu-end"
+				aria-labelledby="navbarDropdownMenuAvatar">
+				<a class="dropdown-item"
+					href="guardar-imagenUsuario?nickname=${loginNickName}"> <i
+					class="fas fa-user-circle"></i>&nbsp; Foto
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item  text-danger" href="login"> <i
+					class="fas fa-door-open"></i>&nbsp; Logout
+				</a>
+			</div>
+		</div>
+	</div>
+
+</nav>
