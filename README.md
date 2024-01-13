@@ -11,7 +11,3 @@
 ## CHECKOUT
 ![Descripción de la imagen](https://i.postimg.cc/y8GDjSrv/3.jpg)
 
-![gif](https://i.postimg.cc/8PV9FKpb/8c782m.gif)
-![gif](https://i.postimg.cc/HLjhGFzT/8c78b0.gif)
-![gif]()
-
